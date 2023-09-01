@@ -1,5 +1,5 @@
 nav{
-    background-color: rgb(185, 105, 0);
+    background-image: linear-gradient(to right, rgb(190, 197, 253) , rgb(202, 253, 131));
 }
 
 .container {
@@ -46,7 +46,7 @@ nav{
 
 #col4{
     float: left;
-    width: 100%;
+    width: 30%;
     margin-top: 20px;
 }
 
@@ -57,7 +57,7 @@ nav{
 
 #col5{
     float: left;
-    width: 100%;
+    width: 70%;
     margin-top: 20px;
 }
 
