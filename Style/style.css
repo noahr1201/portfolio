@@ -1,5 +1,5 @@
 nav{
-    background-image: linear-gradient(to right, rgb(190, 197, 253) , rgb(202, 253, 131));
+    background-image: linear-gradient(to right, rgb(211, 215, 255) , rgb(209, 254, 144));
 }
 
 .container {
@@ -182,12 +182,36 @@ input{
     float: right;    
     margin: 0 0 0 15px;
     left: 69%;
-    border-radius: 50%;
+    border-radius: 48%;
     width: 30%;
     height: 30%;
     padding: 10px;
 }
 
 .home{
-    margin-top: 6%;
+    margin-top: 2%;
+}
+
+nav ul li a:hover{
+    background-color: rgb(245, 245, 211);
+    border-radius: 5%;
+}
+
+nav ul li{
+    display: inline;
+    padding: 10px;
+}
+
+.navbar-nav li a{
+    color: blue;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#mehome:hover{
+    background-color: rgb(211, 220, 245);
+    border-radius: 5%;
+    transform: scale(1.1);
 }
