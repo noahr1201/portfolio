@@ -7,6 +7,7 @@
     <link rel="icon" href="../Images/me.JPG">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link href="../Style/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
   </head>
   </head>
   <body>
@@ -24,6 +25,9 @@
               <a class="nav-link" href="./projecten.html">Projecten</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="../Pages/about.html">About</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="./contact.html">Contact</a>
             </li>
           </ul>
@@ -31,37 +35,38 @@
       </div>
     </nav>
     <div class="form">
-      <h1>Contact</h1>
+      <h1 class="animate__animated animate__backInDown" >Contact</h1>
+      <p class="animate__animated animate__backInLeft">(Dit formulier wordt verstuurd met PHP naar een database.)</p>
       <form action="../Scripts/database.php" method="post">
         <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label">Naam</label>
+          <label class="animate__animated animate__backInLeft" for="exampleFormControlInput1" class="form-label">Naam</label>
           <input type="text" name="name" class="form-control" id="exampleFormControlInput1" placeholder="Naam">
         </div>
         <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label">Email address</label>
+          <label class="animate__animated animate__backInLeft" for="exampleFormControlInput1" class="form-label">Email address</label>
           <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
         </div>
         <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label">Adres</label>
+          <label class="animate__animated animate__backInLeft" for="exampleFormControlInput1" class="form-label">Adres</label>
           <input type="text" class="form-control" name="adres" id="exampleFormControlInput1" placeholder="Adres">
         </div>
         <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label">Huisnummer</label>
+          <label class="animate__animated animate__backInLeft" for="exampleFormControlInput1" class="form-label">Huisnummer</label>
           <input type="text" class="form-control" name="huisnummer" id="exampleFormControlInput1" placeholder="Huisnummer">
         </div>
         <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label">Postcode</label>
+          <label class="animate__animated animate__backInLeft" for="exampleFormControlInput1" class="form-label">Postcode</label>
           <input type="text" class="form-control" name="postcode" id="exampleFormControlInput1" placeholder="Postcode">
         </div>
         <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label">Provincie</label>
+          <label class="animate__animated animate__backInLeft" for="exampleFormControlInput1" class="form-label">Provincie</label>
           <input type="text" class="form-control" name="provincie" id="exampleFormControlInput1" placeholder="Provincie">
         </div>
         <div class="mb-3">
-          <label for="exampleFormControlTextarea1" class="form-label">Bericht</label>
+          <label class="animate__animated animate__backInLeft" for="exampleFormControlTextarea1" class="form-label">Bericht</label>
           <textarea class="form-control" name="bericht" id="exampleFormControlTextarea1" rows="3"></textarea>
         </div>
-        <input type="submit" value="Submit">
+        <input class="animate__animated animate__backInLeft" type="submit" value="Submit">
       </form>
       </div>
     <script src="../Scripts/script.js"></script>
