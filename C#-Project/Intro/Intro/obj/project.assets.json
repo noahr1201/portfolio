@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/noah/Projects/Intro/Intro/Intro.csproj",
+      "projectUniqueName": "/Users/noah/Documents/GitHub/portfolio/C#-Project/Intro/Intro/Intro.csproj",
       "projectName": "Intro",
-      "projectPath": "/Users/noah/Projects/Intro/Intro/Intro.csproj",
+      "projectPath": "/Users/noah/Documents/GitHub/portfolio/C#-Project/Intro/Intro/Intro.csproj",
       "packagesPath": "/Users/noah/.nuget/packages/",
-      "outputPath": "/Users/noah/Projects/Intro/Intro/obj/",
+      "outputPath": "/Users/noah/Documents/GitHub/portfolio/C#-Project/Intro/Intro/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/noah/.nuget/NuGet/NuGet.Config"

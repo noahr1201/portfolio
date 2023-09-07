@@ -1,17 +1,34 @@
 ﻿@page
-@model IndexModel
-@{
-    ViewData["Title"] = "Home page";
-}
+@model YourNamespace.Pages.IndexModel
 
-<div class="text-center">
-    <h2>Voer hier je naam en leeftijd in</h2>
-    <form method="post">
-        <input type="text" name="name" placeholder="Naam" required minlength="2" maxlength="20" />
-        <input type="number" name="age" placeholder="Leeftijd" required min="0" max="120" />
-        <input type="submit" value="Verstuur" />
-    </form><br>
-    <h2>Upload hier je bestand</h2>
-    <INPUT id="oFile" type="file" runat="server" NAME="oFile">
+<form method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label for="Name">Naam:</label>
+        <input type="text" id="Name" name="Name" class="form-control" asp-for="Person.Name" />
+        <span asp-validation-for="Person.Name" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="Age">Leeftijd:</label>
+        <input type="number" id="Age" name="Age" class="form-control" asp-for="Person.Age" />
+        <span asp-validation-for="Person.Age" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="ProfilePicture">Upload een foto:</label>
+        <input type="file" id="ProfilePicture" name="ProfilePicture" class="form-control" asp-for="ProfilePicture" />
+        <span asp-validation-for="ProfilePicture" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+<div id="displayData" class="mt-4">
+    @if (Model.DisplayData)
+    {
+        <h3>Gegevens:</h3>
+        <p>Naam: @Model.Person.Name</p>
+        <p>Leeftijd: @Model.Person.Age</p>
+        <p>Geuploade foto: <img src="~/uploads/@Model.ProfilePicture.FileName" alt="Profile Picture" /></p>
+    }
 </div>
-
