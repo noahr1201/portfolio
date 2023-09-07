@@ -33,13 +33,54 @@ $stmt = $conn->query("SELECT * FROM Contact");
 <body>
     <h1>Verzonden!</h1>
     <ul>
-        Naam: <li><?php echo $_POST["name"]; ?></li>
-        Email: <li><?php echo $_POST["email"]; ?></li>
-        Adres: <li><?php echo $_POST["adres"]; ?></li>
-        Huisnummer: <li><?php echo $_POST["huisnummer"]; ?></li>
-        Postcode: <li><?php echo $_POST["postcode"]; ?></li>
-        Provincie: <li><?php echo $_POST["provincie"]; ?></li>
-        Bericht: <li><?php echo $_POST["bericht"]; ?></li>
+        <p>Naam: <?php echo $naam ?></p>
+        <p>Email: <?php echo $email ?></p>
+        <p>Bedrijf: <?php echo $bedrijf ?></p>
+        <p>Telefoon: <?php echo $telefoon ?></p>
+        <p>Bericht: <?php echo $bericht ?></p>
     </ul>
-    <p>Bedankt voor uw bericht, we zullen zo snel mogelijk contact met u opnemen.</p>
+    <h3>Bedankt voor uw bericht, ik zal zo snel mogelijk contact met u opnemen.</h3>
+    <br>
+    <h3>Met vriendelijke groet,</h3>
+    <h3>Noah van Ree</h3>
+    <br>
+    <a href="../index.html">Terug naar de website</a>
+    <style>
+        body {
+            background-color: #f2f2f2;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+
+        h1 {
+            color: #000000;
+            font-size: 50px;
+            text-align: center;
+        }
+
+        p {
+            color: red;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: #ffffff;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        </style>
 </body>

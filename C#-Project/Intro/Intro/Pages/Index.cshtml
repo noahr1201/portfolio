@@ -1,0 +1,17 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h2>Voer hier je naam en leeftijd in</h2>
+    <form method="post">
+        <input type="text" name="name" placeholder="Naam" required minlength="2" maxlength="20" />
+        <input type="number" name="age" placeholder="Leeftijd" required min="0" max="120" />
+        <input type="submit" value="Verstuur" />
+    </form><br>
+    <h2>Upload hier je bestand</h2>
+    <INPUT id="oFile" type="file" runat="server" NAME="oFile">
+</div>
+
