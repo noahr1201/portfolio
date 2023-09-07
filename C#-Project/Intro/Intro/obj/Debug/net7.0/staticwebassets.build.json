@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Us7weJAziDMsOrkGM8Q+kogteaUnwEQHbcc5cSSoeLE=",
+  "Hash": "Z+xpP6/b/3D30r4SHdOoSfNy+/kCk7Zcv2HDZDOQ4C8=",
   "Source": "Intro",
   "BasePath": "_content/Intro",
   "Mode": "Default",
@@ -1069,6 +1069,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Identity": "/Users/noah/Documents/GitHub/portfolio/C#-Project/Intro/Intro/wwwroot/uploads/2f87d7a1dc1849e23c98403318824425.jpg",
+      "SourceId": "Intro",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/noah/Documents/GitHub/portfolio/C#-Project/Intro/Intro/wwwroot/",
+      "BasePath": "_content/Intro",
+      "RelativePath": "uploads/2f87d7a1dc1849e23c98403318824425.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/2f87d7a1dc1849e23c98403318824425.jpg"
     }
   ]
 }

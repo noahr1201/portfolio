@@ -1,4 +1,20 @@
 ﻿<Properties StartupConfiguration="{55C5A44D-D7B9-4C1C-B873-2AFC767D32C3}|https">
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Intro FirstBuild="True" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Intro PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Intro/Pages/Index.cshtml">
+    <Files>
+      <File FileName="Intro/Pages/Index.cshtml" Line="22" Column="11" />
+      <File FileName="Intro/Pages/Index.cshtml.cs" Line="64" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__" />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
 </Properties>
