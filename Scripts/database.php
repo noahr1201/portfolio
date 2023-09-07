@@ -15,18 +15,14 @@ try {
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $naam = $_POST['name'];
     $email = $_POST['email'];
-    $adres = $_POST['adres'];
-    $huisnummer = $_POST['huisnummer'];
-    $postcode = $_POST['postcode'];
-    $provincie = $_POST['provincie'];
+    $bedrijf = $_POST['bedrijf'];
+    $telefoon = $_POST['telefoon'];
     $bericht = $_POST['bericht'];
-    $stmt = $conn->prepare("INSERT INTO Contact (naam, email, adres, huisnummer, postcode, provincie, bericht) VALUES (:naam, :email, :adres, :huisnummer, :postcode, :provincie, :bericht)");
+    $stmt = $conn->prepare("INSERT INTO Contact (naam, email, bedrijf, telefoon, bericht) VALUES (:naam, :email, :bedrijf, :telefoon, :bericht)");
     $stmt->bindParam(':naam', $naam);
     $stmt->bindParam(':email', $email);
-    $stmt->bindParam(':adres', $adres);
-    $stmt->bindParam(':huisnummer', $huisnummer);
-    $stmt->bindParam(':postcode', $postcode);
-    $stmt->bindParam(':provincie', $provincie);
+    $stmt->bindParam(':bedrijf', $bedrijf);
+    $stmt->bindParam(':telefoon', $telefoon);
     $stmt->bindParam(':bericht', $bericht);
     $stmt->execute();
 }

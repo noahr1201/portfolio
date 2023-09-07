@@ -192,11 +192,6 @@ input{
     margin-top: 2%;
 }
 
-nav ul li a:hover{
-    background-color: rgb(245, 245, 211);
-    border-radius: 5%;
-}
-
 nav ul li{
     display: inline;
     padding: 10px;
@@ -208,10 +203,4 @@ nav ul li{
     padding: 10px;
     font-size: 20px;
     font-family: 'Arial Rounded MT Bold', sans-serif;
-}
-
-#mehome:hover{
-    background-color: rgb(211, 220, 245);
-    border-radius: 5%;
-    transform: scale(1.1);
 }
