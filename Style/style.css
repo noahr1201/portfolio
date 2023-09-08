@@ -204,3 +204,9 @@ nav ul li{
     font-size: 20px;
     font-family: 'Arial Rounded MT Bold', sans-serif;
 }
+
+html,body {
+  height: 200px;
+  background-color: rgb(255, 246, 197); /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, rgb(210, 215, 255) , rgb(208, 254, 144));
+}
