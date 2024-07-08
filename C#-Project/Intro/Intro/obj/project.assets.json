@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/noah/Documents/GitHub/portfolio/C#-Project/Intro/Intro/Intro.csproj",
+      "projectUniqueName": "/Users/noah/Desktop/portfolio/C#-Project/Intro/Intro/Intro.csproj",
       "projectName": "Intro",
-      "projectPath": "/Users/noah/Documents/GitHub/portfolio/C#-Project/Intro/Intro/Intro.csproj",
+      "projectPath": "/Users/noah/Desktop/portfolio/C#-Project/Intro/Intro/Intro.csproj",
       "packagesPath": "/Users/noah/.nuget/packages/",
-      "outputPath": "/Users/noah/Documents/GitHub/portfolio/C#-Project/Intro/Intro/obj/",
+      "outputPath": "/Users/noah/Desktop/portfolio/C#-Project/Intro/Intro/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/noah/.nuget/NuGet/NuGet.Config"
@@ -26,7 +26,7 @@
         "net7.0"
       ],
       "sources": {
-        "/usr/local/share/dotnet/sdk/7.0.307/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+        "/usr/local/share/dotnet/sdk/7.0.311/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -63,7 +63,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.307/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.311/RuntimeIdentifierGraph.json"
       }
     }
   }
